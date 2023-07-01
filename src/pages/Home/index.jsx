@@ -33,6 +33,7 @@ export function Home(){
             tags: [
               {id: "1", name: "React"},
               {id: "2", name: "Rocketseat"},
+              {id: "3", name: "Express"}
             ]
             }}
             />

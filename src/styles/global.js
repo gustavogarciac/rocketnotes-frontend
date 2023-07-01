@@ -33,4 +33,15 @@ export default createGlobalStyle`
     filter: brightness(0.9);
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    border-radius: 99px;
+  }
 `;
