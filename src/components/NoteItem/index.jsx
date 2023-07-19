@@ -1,7 +1,8 @@
 import { FiPlus, FiX } from "react-icons/fi"
 
-import { Container } from "./styles"
+import { Container } from "./style"
 
+// eslint-disable-next-line react/prop-types
 export function NoteItem({ isNew, value, onClick, ...rest}) {
   return (
     <Container isNew={isNew}>
